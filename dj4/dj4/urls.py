@@ -19,6 +19,5 @@ from calc import views as calc_views #new
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', learn_views.home, name='home'),
-#    url(r'^sygp/', learn_views.sygp),
+    url(r'^$', learn_views.index, name='home'), 
 ]
